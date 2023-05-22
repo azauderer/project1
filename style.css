@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(63, 59, 59);
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+
+
+
+
+/* Nav */
+
+
+
+.navbar {
+
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0px;
+  padding-right: 30px;
+  position: fixed;
+  width: 100%;
+
+}
+
+.navbar ul {
+  display: flex;
+  /* text-align: right; */
+}
+
+.navbar ul li {
+  padding: 0 20px;
+  margin: 0 5px;
+}
+
+.navbar ul a:hover {
+  color: purple;
+  border-bottom: #28a745 2px solid;
+}
+
+
+
+.navbar img {
+  height: 60px;
+}
+
+
+/* Main */
+
+.content,
+.homecontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 60px;
+
+
+}
+
+.content img,
+.homecontent img {
+  width: 100%;
+  border-radius: 30px;
+
+
+}
+
+#yellowbird2,
+#yellowbird1,
+#yellowbird3 {
+  /* border: solid red 5px; */
+  width: 50%;
+  margin: 0 50px;
+
+}
+
+.paragraph {
+  /* border: solid blue 5px; */
+  width: 50%;
+  margin: 0 50px;
+  background-color: lightpink;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* Home */
+
+
+#homeparagraph {
+  width: 75%;
+  margin-left: 60px;
+}
+
+
+
+#homeyellowbird1 img {
+  width: 100%;
+}
+
+#homeyellowbird1 {
+  width: 25%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: lightblue;
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+button:hover {
+  background-color: lightgray;
+  color: purple;
+
+}
+
+.bottomparagraphs {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 30px;
+}
+
+.bottomparagraph {
+  width: 30%;
+}
+
+/* Contact page */
+
+#contact {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  /* border: 5px solid red; */
+}
+
+input[type=text] {
+  margin-top: 5px;
+
+}
+
+input[type=submit] {
+  margin-bottom: 10px;
+  font-size: 15px;
+
+}
+
+.contactinput {
+  /* padding: 20px 5px; */
+  margin: 20px;
+  width: 30%;
+  /* border: 5px solid blue; */
+
+
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* border: 5px solid #28a745; */
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  height: 30px;
+  /* width: 75%; */
+  background-color: lightblue;
+  padding-left: 20px;
+}
